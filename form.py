@@ -159,8 +159,8 @@ class MainFrame(wx.Frame):
             result, count = create_query(path.encode('utf-8'))
             self.query_file = result
             self.status_bar.SetStatusText("Query was created on %s" % result)
-            self.l_music_path.SetLabelText("Query was created on %s" % result)
-            self.l_music_count.SetLabelText("%s files exists" % count)
+            self.l_music_path.SetLabel("Query was created on %s" % result)
+            self.l_music_count.SetLabel("%s files exists" % count)
             self.listbox.Clear()
             for line in get_track(self.query_file):
                 self.listbox.Append(line)
