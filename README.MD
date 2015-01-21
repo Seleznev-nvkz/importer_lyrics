@@ -1,3 +1,4 @@
+###Description
 This gui app I created for personal usage. Use it to create query of music files on selected directory, parsing lyrics from lyrics.wikia.com and fill tags.
 
 ###Requirements
